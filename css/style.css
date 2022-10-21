@@ -1,0 +1,96 @@
+<style>
+        /*CSS Reset*/
+        body{
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background: url("img/bg.png");
+            background-size: 100%;
+            font-family: 'Baloo Bhai 2', cursive;
+        }
+        .left{
+            position: absolute;
+            top: 20px;
+            left: 60px;
+            display: inline-block;
+        }
+        .left img{
+            width: 130px;
+            height: 50px;
+            filter: invert(100%);
+        }
+        .left div{
+            text-align: center;
+            line-height: 30px;
+            font-size: 20px;
+        }
+        .center{
+            display: block;
+            width: 45%;
+            margin: 20px auto;
+
+        }
+        .right{
+            position: absolute;
+            top: 20px;
+            right: 34px;
+            display: inline-block;
+        }
+        .navbar{
+            display: inline-block;
+        }
+        .navbar li{
+            display: inline-block;
+            font-size: 25px;
+        }
+        .navbar li a{
+            color: white;
+            text-decoration: none;
+            padding: 34px 15px;
+        }
+        .navbar li a:hover, .navbar li a.active{
+           text-decoration: underline;
+           color: gray;
+        }
+        .btn{
+            margin: 0px 9px;
+            color: white;
+            background-color: black;
+            padding: 4px 14px;
+            border-radius: 10px;
+            font-size: 20px;
+            cursor: pointer;
+            font-family: 'Baloo Bhai 2', cursive;;
+        }
+        .btn:hover{
+            background-color: rgb(19, 17, 17);
+        }
+        .container{
+            border: 2px solid white;
+            margin: 106px 80px;
+            padding: 75px;
+            width: 33%;
+            border-radius: 28px;
+        }
+        .form-group input{
+            text-align: center;
+            display: block;
+            width: 400px;
+            padding: 1px;
+            border: 2px solid black;
+            margin: 11px auto;
+            font-size: 25px;
+            border-radius: 8px;
+            font-family: 'Baloo Bhai 2', cursive;
+        }
+        .container h1{
+            text-align: center;
+        }
+        .container button{
+            display: block;
+            width: 50%;
+            margin: 5px auto;
+
+
+        }
+    </style>
